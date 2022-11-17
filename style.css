@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+.div{
+    height: 100vh;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border-radius: 8px;
+    color: red;
+    font-size: 28px;
+    background-color: rgb(245, 173, 38);
+    font-weight: 600;
+    font-family: 'Alex Brush', cursive;
+}
+
+.button:hover{
+    background-color: red;
+    color: white;
+    transition: 400ms;
+}
